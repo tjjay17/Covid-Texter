@@ -10,7 +10,6 @@ from twilio.rest import Client
 
 DRIVER_PATH = 'C:\\Users\\thano\\chromedriver'
 
-
 #driver = webdriver.Chrome(executable_path=DRIVER_PATH)
 
 #this is gui; actually opens the browser
@@ -36,6 +35,7 @@ casesToday = casesTodayElement.get_attribute('innerHTML')
 
 client = Client(ACCOUNT_SID, AUTH_TOKEN)
 
+#The twilio number goes in from and to is the number that is wanted to receive msg
 message = client.messages \
     .create(
          body=date + " " + casesToday + ' Cases Today.',
