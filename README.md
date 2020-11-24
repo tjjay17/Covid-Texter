@@ -1,4 +1,4 @@
-# Covid-Texter:Overview
+# Covid-Texter: Overview
 This is a bot made using selenium to scrape the Ontario cases and text them using the Twilio library. Time Can be saved as opposed to searching or having to watch the news.
 
 # How To Use
